@@ -56,12 +56,3 @@ Or using .NET CLI:
 ```bash
 dotnet publish AltT.App/AltT.App.csproj -c Release -r win-x64 --self-contained
 ```
-
-## Development
-
-This solution follows standard .NET project structure with clear separation of concerns:
-- Core contains business logic
-- Data handles data persistence
-- Platform provides OS-level functionality
-- App is the WPF user interface
-
